@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-deploy/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-deploy/static/js/main.c559697f.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.c559697f.chunk.js.map",
-    "runtime-main.js": "/react-deploy/static/js/runtime-main.1953f853.js",
-    "runtime-main.js.map": "/react-deploy/static/js/runtime-main.1953f853.js.map",
-    "static/js/2.1f54fff5.chunk.js": "/react-deploy/static/js/2.1f54fff5.chunk.js",
-    "static/js/2.1f54fff5.chunk.js.map": "/react-deploy/static/js/2.1f54fff5.chunk.js.map",
-    "index.html": "/react-deploy/index.html",
-    "precache-manifest.351b6a83de6a10ec35dc36a3749aef4b.js": "/react-deploy/precache-manifest.351b6a83de6a10ec35dc36a3749aef4b.js",
-    "service-worker.js": "/react-deploy/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/react-deploy/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.1f54fff5.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.1f54fff5.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/react-deploy/static/media/logo.5d5d9eef.svg"
+    "main.css": "/music_theory_training/static/css/main.5f361e03.chunk.css",
+    "main.js": "/music_theory_training/static/js/main.2eb0b56e.chunk.js",
+    "main.js.map": "/music_theory_training/static/js/main.2eb0b56e.chunk.js.map",
+    "runtime-main.js": "/music_theory_training/static/js/runtime-main.701e17de.js",
+    "runtime-main.js.map": "/music_theory_training/static/js/runtime-main.701e17de.js.map",
+    "static/js/2.1f54fff5.chunk.js": "/music_theory_training/static/js/2.1f54fff5.chunk.js",
+    "static/js/2.1f54fff5.chunk.js.map": "/music_theory_training/static/js/2.1f54fff5.chunk.js.map",
+    "index.html": "/music_theory_training/index.html",
+    "precache-manifest.cd6db7c9f7d45532c71c1252a1b86189.js": "/music_theory_training/precache-manifest.cd6db7c9f7d45532c71c1252a1b86189.js",
+    "service-worker.js": "/music_theory_training/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/music_theory_training/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.1f54fff5.chunk.js.LICENSE.txt": "/music_theory_training/static/js/2.1f54fff5.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/music_theory_training/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1953f853.js",
+    "static/js/runtime-main.701e17de.js",
     "static/js/2.1f54fff5.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c559697f.chunk.js"
+    "static/js/main.2eb0b56e.chunk.js"
   ]
 }
