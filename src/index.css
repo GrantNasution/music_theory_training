@@ -1,13 +1,33 @@
+@font-face {
+  font-family: 'BigJohnPRO-Bold';
+  src: url(./fonts/BigJohnPRO-Bold.otf);
+}
+
+@font-face {
+  font-family: 'BigJohnPRO-Light';
+  src: url(./fonts/BigJohnPRO-Light.otf);
+}
+
+.fontLight {
+  font-family: 'BigJohnPRO-Light';
+}
+
 body {
+  /* @font-face {
+    font-family: "Big John BOLD", "Big John Light", "Big John Regular";
+    src: url("src\fonts\BigJohnPRO-Bold.otf"),
+         url("src\fonts\BigJohnPRO-Light.otf"),
+         url("src\fonts\BigJohnPRO-Regular.otf");
+  } */
+  font-family: 'BigJohnPRO-Bold';
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: '',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
