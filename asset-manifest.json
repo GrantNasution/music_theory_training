@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/music_theory_training/static/css/main.5f361e03.chunk.css",
-    "main.js": "/music_theory_training/static/js/main.2eb0b56e.chunk.js",
-    "main.js.map": "/music_theory_training/static/js/main.2eb0b56e.chunk.js.map",
+    "main.css": "/music_theory_training/static/css/main.b3e1ab93.chunk.css",
+    "main.js": "/music_theory_training/static/js/main.e109881b.chunk.js",
+    "main.js.map": "/music_theory_training/static/js/main.e109881b.chunk.js.map",
     "runtime-main.js": "/music_theory_training/static/js/runtime-main.701e17de.js",
     "runtime-main.js.map": "/music_theory_training/static/js/runtime-main.701e17de.js.map",
-    "static/js/2.1f54fff5.chunk.js": "/music_theory_training/static/js/2.1f54fff5.chunk.js",
-    "static/js/2.1f54fff5.chunk.js.map": "/music_theory_training/static/js/2.1f54fff5.chunk.js.map",
+    "static/js/2.f935fa18.chunk.js": "/music_theory_training/static/js/2.f935fa18.chunk.js",
+    "static/js/2.f935fa18.chunk.js.map": "/music_theory_training/static/js/2.f935fa18.chunk.js.map",
     "index.html": "/music_theory_training/index.html",
-    "precache-manifest.cd6db7c9f7d45532c71c1252a1b86189.js": "/music_theory_training/precache-manifest.cd6db7c9f7d45532c71c1252a1b86189.js",
+    "precache-manifest.4bf969a6ac975d0953b87910f9355d95.js": "/music_theory_training/precache-manifest.4bf969a6ac975d0953b87910f9355d95.js",
     "service-worker.js": "/music_theory_training/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/music_theory_training/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.1f54fff5.chunk.js.LICENSE.txt": "/music_theory_training/static/js/2.1f54fff5.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/music_theory_training/static/media/logo.5d5d9eef.svg"
+    "static/css/main.b3e1ab93.chunk.css.map": "/music_theory_training/static/css/main.b3e1ab93.chunk.css.map",
+    "static/js/2.f935fa18.chunk.js.LICENSE.txt": "/music_theory_training/static/js/2.f935fa18.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/music_theory_training/static/media/BigJohnPRO-Light.90e40e07.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.701e17de.js",
-    "static/js/2.1f54fff5.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2eb0b56e.chunk.js"
+    "static/js/2.f935fa18.chunk.js",
+    "static/css/main.b3e1ab93.chunk.css",
+    "static/js/main.e109881b.chunk.js"
   ]
 }
