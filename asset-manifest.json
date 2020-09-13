@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/music_theory_training/static/css/main.b3e1ab93.chunk.css",
-    "main.js": "/music_theory_training/static/js/main.2bf7d613.chunk.js",
-    "main.js.map": "/music_theory_training/static/js/main.2bf7d613.chunk.js.map",
+    "main.js": "/music_theory_training/static/js/main.9a896677.chunk.js",
+    "main.js.map": "/music_theory_training/static/js/main.9a896677.chunk.js.map",
     "runtime-main.js": "/music_theory_training/static/js/runtime-main.701e17de.js",
     "runtime-main.js.map": "/music_theory_training/static/js/runtime-main.701e17de.js.map",
     "static/js/2.f935fa18.chunk.js": "/music_theory_training/static/js/2.f935fa18.chunk.js",
     "static/js/2.f935fa18.chunk.js.map": "/music_theory_training/static/js/2.f935fa18.chunk.js.map",
     "index.html": "/music_theory_training/index.html",
-    "precache-manifest.6f3441f6c5872916b7ed322592af5496.js": "/music_theory_training/precache-manifest.6f3441f6c5872916b7ed322592af5496.js",
+    "precache-manifest.be505029e4ec3b2e4072d54a303a9702.js": "/music_theory_training/precache-manifest.be505029e4ec3b2e4072d54a303a9702.js",
     "service-worker.js": "/music_theory_training/service-worker.js",
     "static/css/main.b3e1ab93.chunk.css.map": "/music_theory_training/static/css/main.b3e1ab93.chunk.css.map",
     "static/js/2.f935fa18.chunk.js.LICENSE.txt": "/music_theory_training/static/js/2.f935fa18.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.701e17de.js",
     "static/js/2.f935fa18.chunk.js",
     "static/css/main.b3e1ab93.chunk.css",
-    "static/js/main.2bf7d613.chunk.js"
+    "static/js/main.9a896677.chunk.js"
   ]
 }

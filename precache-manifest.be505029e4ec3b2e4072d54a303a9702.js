@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "472cd9276772282e2a55c85aab1fc79c",
+    "revision": "36a45945a13909420078f8712fb17f20",
     "url": "/music_theory_training/index.html"
   },
   {
-    "revision": "e3e5456ddeb75e4f1117",
+    "revision": "ba4260f45505f03ac04b",
     "url": "/music_theory_training/static/css/main.b3e1ab93.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/music_theory_training/static/js/2.f935fa18.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3e5456ddeb75e4f1117",
-    "url": "/music_theory_training/static/js/main.2bf7d613.chunk.js"
+    "revision": "ba4260f45505f03ac04b",
+    "url": "/music_theory_training/static/js/main.9a896677.chunk.js"
   },
   {
     "revision": "571142d8e34b82df876f",
