@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36a45945a13909420078f8712fb17f20",
+    "revision": "584bfe68131c65f1b192b8026d2d9e04",
     "url": "/music_theory_training/index.html"
   },
   {
-    "revision": "ba4260f45505f03ac04b",
-    "url": "/music_theory_training/static/css/main.b3e1ab93.chunk.css"
+    "revision": "ba3867b27bc3c376a5ac",
+    "url": "/music_theory_training/static/css/main.7b8a5645.chunk.css"
   },
   {
-    "revision": "4156b3f3fe1eabb41654",
-    "url": "/music_theory_training/static/js/2.f935fa18.chunk.js"
+    "revision": "4291286159c498ff21fe",
+    "url": "/music_theory_training/static/js/2.149d797f.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/music_theory_training/static/js/2.f935fa18.chunk.js.LICENSE.txt"
+    "revision": "28e787dc3e4f56088bd949e004808b2c",
+    "url": "/music_theory_training/static/js/2.149d797f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba4260f45505f03ac04b",
-    "url": "/music_theory_training/static/js/main.9a896677.chunk.js"
+    "revision": "ba3867b27bc3c376a5ac",
+    "url": "/music_theory_training/static/js/main.c6a70a80.chunk.js"
   },
   {
     "revision": "571142d8e34b82df876f",

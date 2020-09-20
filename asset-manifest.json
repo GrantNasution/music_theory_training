@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/music_theory_training/static/css/main.b3e1ab93.chunk.css",
-    "main.js": "/music_theory_training/static/js/main.9a896677.chunk.js",
-    "main.js.map": "/music_theory_training/static/js/main.9a896677.chunk.js.map",
+    "main.css": "/music_theory_training/static/css/main.7b8a5645.chunk.css",
+    "main.js": "/music_theory_training/static/js/main.c6a70a80.chunk.js",
+    "main.js.map": "/music_theory_training/static/js/main.c6a70a80.chunk.js.map",
     "runtime-main.js": "/music_theory_training/static/js/runtime-main.701e17de.js",
     "runtime-main.js.map": "/music_theory_training/static/js/runtime-main.701e17de.js.map",
-    "static/js/2.f935fa18.chunk.js": "/music_theory_training/static/js/2.f935fa18.chunk.js",
-    "static/js/2.f935fa18.chunk.js.map": "/music_theory_training/static/js/2.f935fa18.chunk.js.map",
+    "static/js/2.149d797f.chunk.js": "/music_theory_training/static/js/2.149d797f.chunk.js",
+    "static/js/2.149d797f.chunk.js.map": "/music_theory_training/static/js/2.149d797f.chunk.js.map",
     "index.html": "/music_theory_training/index.html",
-    "precache-manifest.be505029e4ec3b2e4072d54a303a9702.js": "/music_theory_training/precache-manifest.be505029e4ec3b2e4072d54a303a9702.js",
+    "precache-manifest.5444a383dd32aee00a9465e4e583ad84.js": "/music_theory_training/precache-manifest.5444a383dd32aee00a9465e4e583ad84.js",
     "service-worker.js": "/music_theory_training/service-worker.js",
-    "static/css/main.b3e1ab93.chunk.css.map": "/music_theory_training/static/css/main.b3e1ab93.chunk.css.map",
-    "static/js/2.f935fa18.chunk.js.LICENSE.txt": "/music_theory_training/static/js/2.f935fa18.chunk.js.LICENSE.txt",
+    "static/css/main.7b8a5645.chunk.css.map": "/music_theory_training/static/css/main.7b8a5645.chunk.css.map",
+    "static/js/2.149d797f.chunk.js.LICENSE.txt": "/music_theory_training/static/js/2.149d797f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/music_theory_training/static/media/BigJohnPRO-Light.90e40e07.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.701e17de.js",
-    "static/js/2.f935fa18.chunk.js",
-    "static/css/main.b3e1ab93.chunk.css",
-    "static/js/main.9a896677.chunk.js"
+    "static/js/2.149d797f.chunk.js",
+    "static/css/main.7b8a5645.chunk.css",
+    "static/js/main.c6a70a80.chunk.js"
   ]
 }
