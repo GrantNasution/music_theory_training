@@ -7,7 +7,7 @@ import {Button} from 'react';
 function HomePage() {
     return (
         <div>
-            <div id="WP-Title">
+            <div>
                 <Title value="Music Theory" />
                 <Title value="Games" />
             </div>
