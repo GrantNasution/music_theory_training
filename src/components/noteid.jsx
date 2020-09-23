@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import * as Tone from 'tone';
-import * as Util from '../utilities/utils';
+import * as Util from '../utils/utils';
 import Title from './title';
 import Score from './score';
 
@@ -19,8 +19,10 @@ class NoteID extends React.Component {
             input: null,
         }
 
-        this.startGame = this.startGame.bind(this);
-        this.playNote = this.playNote.bind(this);
+        this.gameTick = this.gameTick.bind(this);
+        this.newNote = this.newNote.bind(this);
+        this.checkInput = this.checkInput.bind(this);
+        this.setInput = this.setInput.bind(this);
     }
 
     render() {
@@ -28,27 +30,44 @@ class NoteID extends React.Component {
             <div>
                 <Link to="/">Return</Link>
                 <Title value="Note ID Game" />
-                <Score score={this.state.score} total={this.state.total} /><input type="text"></input>
-                {/* <input type="text" onKeyPress={checkInput} onChange={event  => setInput(event.target.value)}></input> */}
-                <div></div>
-                <button onClick={this.startGame}>Play</button>
+                <Score score={this.state.score} total={this.state.total} />
+                <input type="text" onKeyPress={this.checkInput} onChange={event => this.setInput(event.target.value)}></input>
+                <div>
+                    <button onClick={() => {if(this.state.currNote) {synth.triggerAttackRelease(this.state.currNote, "4n");}}}>Reset</button>
+                    <button onClick={this.gameTick}>Play</button>
+                </div>
             </div>
         );
     }
 
-    startGame() {
-        this.playNote();
+    async gameTick() {
+        this.setState({ total: this.state.total + 1 });
+        await this.newNote();
+        synth.triggerAttackRelease(this.state.currNote, "4n");
     }
 
-    playNote() {
-        this.setState({ total: this.state.total + 1 });
+    async newNote() {
         let newNote;
         do {
             newNote = Util.randNote(this.state.scale, 4);
         } while (this.state.currNote == newNote)
-        this.setState({ currNote: newNote });
-        synth.triggerAttackRelease(this.state.currNote, "4n");
+        await this.setState({ currNote: newNote });
     }
+
+    checkInput(e) {
+        if(e.key === "Enter") {
+            console.log(this.state.input + " == " + this.state.currNote);
+            if(this.state.input == this.state.currNote.charAt(0))  {
+                this.setState({ score: this.state.score + 1 });
+            }
+            this.gameTick();
+        }
+    }
+
+    async setInput(value) {
+        await this.setState({input: value});
+    }
+    
 }
 
 // function NoteID() {
@@ -65,21 +84,5 @@ class NoteID extends React.Component {
 //     );
 // }
 
-// function checkInput(e) {
-//     if(e.key === "Enter") {
-//         console.log("enter");
-//         let scoreOpts;
-//         if(input == currNote)  {
-//             scoreOpts = {"score": "add"};
-//         }
-//         setScore(scoreOpts);
-//     }
-//     playNote();
-// }
-
-
-// function setInput(value) {
-//     input = value;
-// }
 
 export default NoteID;
