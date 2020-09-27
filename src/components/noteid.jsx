@@ -14,11 +14,15 @@ class NoteID extends React.Component {
             score: 0,
             total: 0,
             currNote: null,
+            prevNote: null,
             //** Change This! **//
             scale: Util.getScale('c'),
             input: null,
+            info: "click play to start",
+            gameStart: false,
         }
 
+        this.startGame = this.startGame.bind(this);
         this.gameTick = this.gameTick.bind(this);
         this.newNote = this.newNote.bind(this);
         this.checkInput = this.checkInput.bind(this);
@@ -30,14 +34,24 @@ class NoteID extends React.Component {
             <div>
                 <Link to="/">Return</Link>
                 <Title value="Note ID Game" />
+                <p>{this.state.info + (this.state.prevNote ? this.state.prevNote : "").toUpperCase()}</p>
                 <Score score={this.state.score} total={this.state.total} />
-                <input type="text" onKeyPress={this.checkInput} onChange={event => this.setInput(event.target.value)}></input>
+                <input type="text" onKeyPress={event => this.checkInput(event)} onChange={e => {this.setInput(e.target.value);}}
+                disabled = {(this.state.gameStart) ? "" : "disabled"}/>
                 <div>
-                    <button onClick={() => {if(this.state.currNote) {synth.triggerAttackRelease(this.state.currNote, "4n");}}}>Reset</button>
-                    <button onClick={this.gameTick}>Play</button>
+                    <button onClick={() => {if(this.state.currNote) {synth.triggerAttackRelease(this.state.currNote, "4n");}}}>Replay</button>
+                    <button disabled={(this.state.gameStart) ? "disabled" : ""} onClick={this.startGame}>Play</button>
                 </div>
             </div>
         );
+    }
+
+    startGame() {
+        this.setState({
+            gameStart: true,
+            info: "Prev: ",
+        });
+        this.gameTick();
     }
 
     async gameTick() {
@@ -56,10 +70,11 @@ class NoteID extends React.Component {
 
     checkInput(e) {
         if(e.key === "Enter") {
-            console.log(this.state.input + " == " + this.state.currNote);
+            this.setState({prevNote: this.state.currNote.charAt(0)});
             if(this.state.input == this.state.currNote.charAt(0))  {
                 this.setState({ score: this.state.score + 1 });
             }
+            e.target.value="";
             this.gameTick();
         }
     }
@@ -69,20 +84,5 @@ class NoteID extends React.Component {
     }
     
 }
-
-// function NoteID() {
-//     return (
-//         <div>
-//             <Link to="/">Return</Link>
-//             <Title value="Note ID Game" />
-//             <Score score={score} total={total} />
-//             <input type="text"></input>
-//             {/* <input type="text" onKeyPress={checkInput} onChange={event  => setInput(event.target.value)}></input> */}
-//             <div></div>
-//             <button onClick={startGame}>Play</button>
-//         </div>
-//     );
-// }
-
 
 export default NoteID;
